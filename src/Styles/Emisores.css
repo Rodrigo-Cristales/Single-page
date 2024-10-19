@@ -1,0 +1,18 @@
+/* RESPONSIVE PARA PANTALLAS GRANDES */
+
+@media (min-width: 768px ){
+.imagenes__modificador{
+    width: 220px;
+    height: 200px;
+}
+}
+
+/* RESPOSSIVE PARA LAS PANTALLAS MAS PEQUEÑAS */
+
+@media (max-width: 460px ){
+.imagenes__modificador{
+    width: 100%;
+}
+
+
+}

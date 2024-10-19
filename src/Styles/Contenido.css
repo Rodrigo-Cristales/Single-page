@@ -1,0 +1,45 @@
+:root{
+    --fuente_de_texto_primaria : "Playfair Display", serif; 
+    --fuente_de_texto_secundaria: "Montserrat", sans-serif ;
+}
+@media (min-width: 720px ){
+.modificador__imagenes{
+    width: 220px;
+    height: 220px;
+    border-radius: 1rem;
+    text-align: center;
+}
+.Contenido__principal{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+        align-items: center; 
+        gap: 2rem;
+        font-size: 3rem;
+}
+.Modificador__cajas{
+    background-color: #262727;
+    padding: 2rem;
+    border-radius: 2rem;
+} 
+.titulo_contenido{
+    color: #fff;
+    font-family: var(--fuente_de_texto_secundaria);
+    margin: 1rem;
+}
+
+}
+
+/* RESPONSIVE DE TELEFENOS MAS PEQUEÑOS */
+@media (max-width: 460px ){
+.modificador__imagenes{
+    width: 100%;
+    border-radius: 1rem ;
+}
+.Modificador__cajas p{
+    font-size: px;
+}
+.titulo_contenido{
+    font-size: 1rem;
+}
+}

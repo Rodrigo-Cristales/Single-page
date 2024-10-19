@@ -1,0 +1,31 @@
+:root{
+    --fuente_de_texto_primaria : "Playfair Display", serif; 
+    --fuente_de_texto_secundaria: "Montserrat", sans-serif ;
+  }
+
+.footer__modificador{
+background-color: #262727;
+padding: 1.5rem;
+margin-top: 1rem;
+}
+
+.Footer__p{
+    color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: var(--fuente_de_texto_secundaria) ;
+    margin-top: 1rem;
+}
+
+/* RESPOSIVE DEL FOOTER PARA LAS PANTALLAS PEQUEÑAS */
+
+@media (max-width: 460px ){
+.footer__modificador{
+  padding: 1rem;
+  margin-top: 15rem;
+
+}
+.Footer__p{
+  font-size: 12px;
+}
+}

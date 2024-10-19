@@ -1,0 +1,199 @@
+:root{
+  --fuente_de_texto_primaria : "Playfair Display", serif; 
+  --fuente_de_texto_secundaria: "Montserrat", sans-serif ;
+}
+
+
+
+/*Coloco algunos selectorres globales*/
+a{
+  text-decoration: none;
+}
+centrar-texto{
+  text-align: center;
+}
+body{
+  margin: 0;
+  background: linear-gradient(to bottom, #121212, #181818);
+  font-family: var(--fuente_de_texto_primaria);
+}
+
+/*Aqui comienza el css para el formulario de registro*/
+.titulo__principal{
+  color: #fff;
+  font-family: var(--fuente_de_texto_primaria);
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 2rem;
+}
+.titulo__principal:hover{
+  color:#f8c471;
+  
+}
+.Modificador--titulo{
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.Fomr_register{
+  max-width: 500px;
+  margin : auto;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8);
+  padding: 2rem;
+  cursor: pointer;
+}
+input{
+  display: block;
+  margin: 15px;
+  width: 90%;
+  height: 2.5rem;
+  background-color: #181818;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 1rem;
+}
+input:hover{
+  border: 1px solid #fff;
+}
+label{
+  color: #fff;
+  font-family: var(--fuente_de_texto_secundaria);
+}
+label:hover{
+  color: #f8c471;
+}
+
+.Kodigo__Music{
+  color: #fff;
+  text-align: center;
+}
+.Kodigo__Music:hover{
+  color: #f8c471;
+}
+
+input::placeholder{
+  font-size: 1rem;
+  font-family: var(--fuente_de_texto_secundaria);
+}
+.Crear__Cuenta{
+  width: 50%;
+  height: 3rem;
+  background-color: #11e8e2;
+  border-radius: 2rem;
+  text-align: center;
+  font-family: var(--fuente_de_texto_secundaria);
+  font-size: 1rem;
+}
+.Crear__Cuenta{
+  margin-top: 1rem;
+  margin-left: 7.5rem;
+  color : #fff;
+}
+
+.Modificador__Button{
+  background-color: #07d50d;
+}
+.Link__registros{
+  color: #fff;
+}
+
+.Tipos_de_sesiones{
+  width: 90%;
+  height: 3rem;
+  margin: 10px;
+  border-radius: 10rem;
+  border: none;
+  background-color: #181818;
+  color: #fff;
+  border: 1px solid #fff;
+  transition: opacity 0.5s ease, transform 0.3s ease;
+}
+.Tipos_de_sesiones:hover{
+  background-color:  #3498db;
+  opacity: 0.5; 
+}
+
+.Inicio__Imagenes{
+  margin-left: 0.5rem;
+
+}
+.Inicio__Imagenes2{
+  margin-left: 1.8rem;
+}
+
+
+.Modificador__texto{
+  font-size: 20px;
+  margin: 3rem;
+}
+.Errors {
+  color: #e74c3c;
+  display: block;
+  font-size: 0.9rem;
+  margin-top: 5px;
+  margin-right: 2rem;
+  font-family: var(--fuente_de_texto_secundaria);
+  text-align: center;
+  animation: fade-in 0.5s ease-in-out;
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*Aqui finaliza el css para el formulario de registro*/
+
+
+/* ESTILOS RESPONSIVE DE LOS FORMUKARIOS */
+
+  @media (max-width: 468px) {
+    .titulo__principal {
+      font-size: 1.5rem; 
+      margin-top: 3.5rem;
+    }
+  
+    .Fomr_register {
+      max-width: 90%; 
+      padding: 1.5rem;
+    }
+  
+    input {
+      margin: 10px;
+      width: 100%; 
+      height: 2rem;
+    }
+  
+    .Crear__Cuenta {
+      width: 100%;
+      margin-left: 0; 
+      height: 2.5rem;
+    }
+  
+    .Tipos_de_sesiones {
+      width: 100%; 
+      height: 2.5rem;
+    }
+  
+    .Modificador__texto {
+      font-size: 16px; 
+      margin: 2rem;
+    }
+  
+    .Inicio__Imagenes, 
+    .Inicio__Imagenes2 {
+      margin-left: 1rem; 
+    }
+  
+    .navbar-container {
+      flex-direction: column; 
+      align-items: center;
+      gap: 10px;
+    }
+  }
+  
